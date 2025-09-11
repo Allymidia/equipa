@@ -20,13 +20,13 @@ const Features: React.FC = () => {
     },
     {
       icon: Clock,
-      title: "Tratamentos Mais Rápidos",
-      description: "Reduz o tempo de sessão em até 70%, permitindo atender mais pacientes com conforto total."
+      title: "Seguro para Todos os Fototipos",
+      description: "Tecnologia SHR (Super Hair Removal) eficaz e segura para todos os fototipos de pele (I a VI), incluindo peles bronzeadas e morenas."
     },
     {
       icon: Heart,
       title: "Conforto do Paciente",
-      description: "Tecnologia SHR (Super Hair Removal) confortável e segura, pois atende a todos os fototipos de pele, garantindo resultados eficazes para diferentes tipos de clientes."
+      description: "Tratamento indolor com sistema de resfriamento que mantém a pele entre -3°C e -5°C, garantindo máximo conforto durante toda a sessão."
     }
   ];
 
