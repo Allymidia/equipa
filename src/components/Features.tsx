@@ -21,7 +21,7 @@ const Features: React.FC = () => {
     {
       icon: Clock,
       title: "Seguro para Todos os Fototipos",
-      description: "Tecnologia SHR (Super Hair Removal) eficaz e segura para todos os fototipos de pele (I a VI), incluindo peles bronzeadas e morenas."
+      description: "Tecnologia SHR (Super Hair Removal) eficaz e segura para todos os fototipos de pele (I a VI), incluindo peles bronzeadas e negras."
     },
     {
       icon: Heart,

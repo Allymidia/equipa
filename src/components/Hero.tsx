@@ -65,11 +65,6 @@ const Hero: React.FC = () => {
                 </div>
               </div>
               
-              {/* Glow */}
-              <div className="absolute inset-0 bg-gradient-to-r from-[#1dd1a1]/5 to-[#48e6bd]/5 rounded-3xl"></div>
-            </div>
-            
-            {/* Floating stats */}
             <div className={`absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 ${imageAnimation.className}`} style={{ transitionDelay: '600ms' }}>
               <div className="text-3xl font-bold gradient-text">10 Anos</div>
               <div className="text-xs text-gray-600 font-medium">Melhor Equipamento FDA</div>
