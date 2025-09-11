@@ -58,11 +58,7 @@ const Hero: React.FC = () => {
                   <div className="text-lg font-bold">SOPRANO PLATINUM</div>
                 </div>
                 
-                {/* Destaque tecnologia */}
-                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-4 py-3 rounded-xl shadow-lg">
-                  <div className="text-xs text-gray-500 uppercase tracking-wide">Tecnologia</div>
-                  <div className="text-sm font-bold text-gray-900">Alma Trio</div>
-                </div>
+
               </div>
               
               {/* Badge 10 Anos */}
