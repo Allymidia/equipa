@@ -65,22 +65,24 @@ const Hero: React.FC = () => {
                 </div>
               </div>
               
-            <div className={`absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 ${imageAnimation.className}`} style={{ transitionDelay: '600ms' }}>
-              <div className="text-3xl font-bold gradient-text">10 Anos</div>
-              <div className="text-xs text-gray-600 font-medium">Melhor Equipamento FDA</div>
-            </div>
-            
-            {/* Fototipos */}
-            <div className={`absolute top-1/3 -right-10 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 text-left ${imageAnimation.className}`} style={{ transitionDelay: '800ms' }}>
-              <div className="text-lg font-bold gradient-text">Todos os</div>
-              <div className="text-sm text-gray-600 font-medium mb-2">Fototipos de Pele</div>
-              <div className="flex space-x-1">
-                <div className="w-3 h-3 rounded-full border border-gray-300" style={{ backgroundColor: "#ffe0cc" }}></div> {/* Fototipo I */}
-                <div className="w-3 h-3 rounded-full border border-gray-400" style={{ backgroundColor: "#ffcc99" }}></div> {/* Fototipo II */}
-                <div className="w-3 h-3 rounded-full border border-gray-500" style={{ backgroundColor: "#e6b07c" }}></div> {/* Fototipo III */}
-                <div className="w-3 h-3 rounded-full border border-gray-600" style={{ backgroundColor: "#c68642" }}></div> {/* Fototipo IV */}
-                <div className="w-3 h-3 rounded-full border border-gray-700" style={{ backgroundColor: "#8d5524" }}></div> {/* Fototipo V */}
-                <div className="w-3 h-3 rounded-full border border-gray-800" style={{ backgroundColor: "#5a381e" }}></div> {/* Fototipo VI */}
+              {/* Badge 10 Anos */}
+              <div className={`absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 ${imageAnimation.className}`} style={{ transitionDelay: '600ms' }}>
+                <div className="text-3xl font-bold gradient-text">10 Anos</div>
+                <div className="text-xs text-gray-600 font-medium">Melhor Equipamento FDA</div>
+              </div>
+              
+              {/* Fototipos */}
+              <div className={`absolute top-1/3 -right-10 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 text-left ${imageAnimation.className}`} style={{ transitionDelay: '800ms' }}>
+                <div className="text-lg font-bold gradient-text">Todos os</div>
+                <div className="text-sm text-gray-600 font-medium mb-2">Fototipos de Pele</div>
+                <div className="flex space-x-1">
+                  <div className="w-3 h-3 rounded-full border border-gray-300" style={{ backgroundColor: "#ffe0cc" }}></div>
+                  <div className="w-3 h-3 rounded-full border border-gray-400" style={{ backgroundColor: "#ffcc99" }}></div>
+                  <div className="w-3 h-3 rounded-full border border-gray-500" style={{ backgroundColor: "#e6b07c" }}></div>
+                  <div className="w-3 h-3 rounded-full border border-gray-600" style={{ backgroundColor: "#c68642" }}></div>
+                  <div className="w-3 h-3 rounded-full border border-gray-700" style={{ backgroundColor: "#8d5524" }}></div>
+                  <div className="w-3 h-3 rounded-full border border-gray-800" style={{ backgroundColor: "#5a381e" }}></div>
+                </div>
               </div>
             </div>
           </div>
