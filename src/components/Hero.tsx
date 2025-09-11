@@ -25,22 +25,6 @@ const Hero: React.FC = () => {
               </p>
             </div>
 
-            {/* Destaques */}
-            <div className={`flex flex-wrap gap-4 ${contentAnimation.className}`} style={{ transitionDelay: '200ms' }}>
-              <div className="flex items-center bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full">
-                <Award className="w-5 h-5 text-[#1dd1a1] mr-2" />
-                <span className="text-sm font-medium text-gray-700">Tecnologia Líder</span>
-              </div>
-              <div className="flex items-center bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full">
-                <Shield className="w-5 h-5 text-[#1dd1a1] mr-2" />
-                <span className="text-sm font-medium text-gray-700">Aprovado pela ANVISA</span>
-              </div>
-              <div className="flex items-center bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full">
-                <Zap className="w-5 h-5 text-[#1dd1a1] mr-2" />
-                <span className="text-sm font-medium text-gray-700">Resultados Comprovados</span>
-              </div>
-            </div>
-
             {/* CTA */}
             <div className={`space-y-4 ${contentAnimation.className}`} style={{ transitionDelay: '400ms' }}>
               <a 
@@ -70,7 +54,7 @@ const Hero: React.FC = () => {
                 
                 {/* Badge */}
                 <div className="absolute -top-6 -right-6 bg-gradient-to-r from-[#1dd1a1] to-[#48e6bd] text-white px-8 py-4 rounded-2xl font-bold shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
-                  <div className="text-sm font-medium">ALMA LASERS</div>
+                  <div className="text-sm font-medium">EQUIPALASER</div>
                   <div className="text-lg font-bold">SOPRANO PLATINUM</div>
                 </div>
                 
